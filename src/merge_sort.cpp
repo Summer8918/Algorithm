@@ -15,6 +15,7 @@ int main()
     }
     return 0;
 }
+// p<=q<r
 void merge(vector<int> &A,int p,int q,int r){
     int n1 = q-p+1;
     int n2 = r-q;
