@@ -15,7 +15,7 @@ Explanation: There are a total of 2 courses to take.
              To take course 1 you should have finished course 0. So it is possible.
 ```
 
-**Example 2:**
+ **Example 2:**
 
 ```
 Input: 2, [[1,0],[0,1]]
@@ -63,7 +63,7 @@ public:
     }
 };`
 
-解法2：DFS
+*解法2：DFS*
 
 深度优先遍历每个顶点，visit数组标识顶点的状态，0表示没有遍历；1表示遍历过了，从该顶点出发不存在环；-1表示当前轮次正在遍历节点，如果在遍历的过程中遇到正在遍历的节点，表示存在环
 
